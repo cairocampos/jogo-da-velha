@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Jogo da Velha</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<main>
+			<div class="resume">
+				<div class="next-player">
+					<strong>PRÓXIMO</strong> <br>
+					<img src="" alt="" height="50" width="50" />
+				</div>
+				<div class="score">
+					<strong>PONTUAÇÃO</strong> <br>
+					<img src="assets/images/o.png" alt="" height="30"> -
+					<span style="font-size:40px" id="o">0</span>
+					<hr>
+					<img src="assets/images/x.png" alt="" height="30"> -
+					<span style="font-size:40px" id="x">0</span>
+				</div>
+			</div>
+			<hr>
+			<div class="zone" data-zone="a1" data-marker=""></div>
+			<div class="zone" data-zone="a2" data-marker=""></div>
+			<div class="zone" data-zone="a3" data-marker=""></div>
+			<div class="clear"></div>
+			<div class="zone" data-zone="b1" data-marker=""></div>
+			<div class="zone" data-zone="b2" data-marker=""></div>
+			<div class="zone" data-zone="b3" data-marker=""></div>
+			<div class="clear"></div>
+			<div class="zone" data-zone="c1" data-marker=""></div>
+			<div class="zone" data-zone="c2" data-marker=""></div>
+			<div class="zone" data-zone="c3" data-marker=""></div>
+			<div class="clear"></div>
+			<div id="congratulations"></div>
+			<div id="fallback"></div>
+			<button id="reset">Jogar Novamente</button>
+		</main>
+		<script type="text/javascript" src="assets/js/app.js"></script>
+	</body>
+</html>
